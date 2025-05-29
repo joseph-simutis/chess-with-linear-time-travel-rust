@@ -1,3 +1,5 @@
+use ribir::prelude::*;
+
 fn main() {
-    println!("Hello, world!");
+	App::run(fn_widget! { @Text { text: "Hello world!" }});
 }
