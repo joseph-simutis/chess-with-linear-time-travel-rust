@@ -1,5 +1,6 @@
-use ribir::prelude::*;
+mod chess;
+mod ui;
 
 fn main() {
-	App::run(fn_widget! { @Text { text: "Hello world!" }});
+	ui::run();
 }
